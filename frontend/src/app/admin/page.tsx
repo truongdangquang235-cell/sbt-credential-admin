@@ -158,7 +158,7 @@ export default function AdminPage() {
       }
     } catch (err) {
       console.error('Failed to fetch schools:', err);
-      setError('Lỗi kết nối Server');
+      setError('Lỗi kết nối server');
     }
   };
 
