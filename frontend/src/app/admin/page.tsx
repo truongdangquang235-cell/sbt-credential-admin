@@ -134,7 +134,7 @@ export default function AdminPage() {
         setError('Không thể lấy danh sách yêu cầu');
       }
     } catch (err) {
-      setError('Lỗi kết nối Server');
+      setError('Lỗi kết nối server');
     } finally {
       setLoading(false);
     }
